@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SpectroServerExample</string>
+    <string name="data_add">Add to Dataset</string>
+    <string name="testing">Test Image</string>
+    <string name="training">Train SVM</string>
+</resources>
