@@ -1,11 +1,17 @@
-# SpectroServerApp
+# Simple Python Backend for Android Apps
 
 An example connection between an Android phone and a Python server including an example SVM classification.
+
 I used my code to help students with their project work.
+
 The example dataset, the image analysis as well as the classification methods have to be adapted according to your desired application.
+
 You can easily create new classes by adding a new folder and images in the Dataset folder on the server.
+
 You can train and test an SVM remotely on a specific dataset.
+
 You can remotely add images to the dataset.
+
 You can remotely analyze images.
 
 # HowTo:
@@ -32,17 +38,17 @@ Server Ports:
 
 
 
-Environmental Settings:
-Tested on Windows 10 with Python 3.6
+Environmental Settings: Tested on Windows 10 with Python 3.6
 
 Required Python Modules:
-socket
-threading
-keyboard
-shutil
-time
-os
-PIL
-scikit-learn (lower than version 0.23! [Tested with scikit-learn 0.22.1])
-cv2
-numpy (Tested with numpy 1.18.1)
+
+- socket
+- threading
+- keyboard
+- shutil
+- time
+- os
+- PIL
+- scikit-learn (lower than version 0.23! [Tested with scikit-learn 0.22.1])
+- cv2
+- numpy (Tested with numpy 1.18.1)
